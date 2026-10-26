@@ -1,0 +1,88 @@
+{
+    "metrics": {
+        "Accuracy": 0.8044692737430168,
+        "Precision": 0.7931034482758621,
+        "Recall": 0.6666666666666666,
+        "F1_Score": 0.7244094488188977,
+        "ROC_AUC": 0.841897233201581,
+        "Train_Samples": 712,
+        "Test_Samples": 179
+    },
+    "coefficients": [
+        {
+            "Feature": "Embarked_Q",
+            "Coefficient (Log-Odds)": 0.17541009984978934,
+            "Odds Ratio (e^coef)": 1.1917348466935662,
+            "Effect on Odds (%)": 19.173484669356622
+        },
+        {
+            "Feature": "Fare",
+            "Coefficient (Log-Odds)": 0.1667874577096285,
+            "Odds Ratio (e^coef)": 1.1815031192406822,
+            "Effect on Odds (%)": 18.15031192406822
+        },
+        {
+            "Feature": "Parch",
+            "Coefficient (Log-Odds)": -0.06770515647123505,
+            "Odds Ratio (e^coef)": 0.9345359748449158,
+            "Effect on Odds (%)": -6.5464025155084204
+        },
+        {
+            "Feature": "SibSp",
+            "Coefficient (Log-Odds)": -0.2801676425507245,
+            "Odds Ratio (e^coef)": 0.7556570505612008,
+            "Effect on Odds (%)": -24.43429494387992
+        },
+        {
+            "Feature": "Embarked_S",
+            "Coefficient (Log-Odds)": -0.39726528503333863,
+            "Odds Ratio (e^coef)": 0.6721556891343005,
+            "Effect on Odds (%)": -32.78443108656995
+        },
+        {
+            "Feature": "Age",
+            "Coefficient (Log-Odds)": -0.5291026203536173,
+            "Odds Ratio (e^coef)": 0.5891334088677285,
+            "Effect on Odds (%)": -41.08665911322716
+        },
+        {
+            "Feature": "Pclass_2",
+            "Coefficient (Log-Odds)": -0.8423495701822331,
+            "Odds Ratio (e^coef)": 0.4306973799478179,
+            "Effect on Odds (%)": -56.930262005218204
+        },
+        {
+            "Feature": "Pclass_3",
+            "Coefficient (Log-Odds)": -2.0828330133414603,
+            "Odds Ratio (e^coef)": 0.12457678411030046,
+            "Effect on Odds (%)": -87.54232158896995
+        },
+        {
+            "Feature": "Sex_male",
+            "Coefficient (Log-Odds)": -2.5094755439963046,
+            "Odds Ratio (e^coef)": 0.08131087203540666,
+            "Effect on Odds (%)": -91.86891279645934
+        }
+    ],
+    "intercept": 2.5710327887855966,
+    "features": [
+        "Pclass",
+        "Sex",
+        "Age",
+        "SibSp",
+        "Parch",
+        "Fare",
+        "Embarked"
+    ],
+    "numeric_features": [
+        "Age",
+        "Fare",
+        "SibSp",
+        "Parch"
+    ],
+    "categorical_features": [
+        "Pclass",
+        "Sex",
+        "Embarked"
+    ]
+}
