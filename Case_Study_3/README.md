@@ -14,7 +14,7 @@ An end-to-end coursework project implementing **Logistic Regression** on the Tit
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview & Objectives](#overview--objectives)
 - [Project Structure](#project-structure)
 - [Requirements & Installation](#requirements--installation)
